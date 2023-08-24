@@ -22,15 +22,13 @@ public class MiVentana extends JFrame {
 }
 ```
 
-Aquí está un resumen completo y detallado de los principales métodos de JFrame en formato Markdown:
-
 ## setDefaultCloseOperation(int)
 Define el comportamiento cuando el usuario cierra la ventana JFrame. Recibe una constante entera:
 
-- JFrame.EXIT_ON_CLOSE (Valor por defecto): Cierra la aplicación entera cuando se cierra la ventana.
-- JFrame.DISPOSE_ON_CLOSE: Sólo cierra la ventana JFrame actual.
-- JFrame.HIDE_ON_CLOSE: Oculta la ventana cuando se cierra.
-- JFrame.DO_NOTHING_ON_CLOSE: No realiza ninguna acción al cerrar.
+- (0)JFrame.DO_NOTHING_ON_CLOSE: No realiza ninguna acción al cerrar.
+- (1)JFrame.HIDE_ON_CLOSE: Oculta la ventana cuando se cierra.
+- (2)JFrame.DISPOSE_ON_CLOSE: Sólo cierra la ventana JFrame actual.
+- (3)JFrame.EXIT_ON_CLOSE (Valor por defecto): Cierra la aplicación entera cuando se cierra la ventana.
 
 Ejemplo:
 
@@ -86,7 +84,6 @@ frame.add(new JButton("Botón"));
 ## setLocationRelativeTo(Component)
 Posiciona la ventana en relación a otro componente o ventana.
 
-
 - Si se pasa null, centra la ventana en la pantalla.
 ```java
 JFrame frame = new JFrame();
@@ -99,7 +96,6 @@ JButton button = new JButton();
 JFrame frame = new JFrame();
 
 frame.setLocationRelativeTo(button);  // Centrará la ventana frame sobre el componente button.
-
 ```
 
 
@@ -109,6 +105,7 @@ Permite setear la posición y dimensiones de un solo llamado.
   - x, y: posición del componente
   - width: ancho del componente 
   - height: alto del componente
+
 > Es equivalente a llamar setLocation(), setSize() y setPreferredSize() de forma individual.
 
 **Ejemplo de uso:**
