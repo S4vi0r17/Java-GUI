@@ -115,3 +115,8 @@ JFrame frame = new JFrame();
 
 frame.setBounds(100, 100, 400, 300); // x:100, y:100 y un tamaño de 400x300 píxeles.
 ```
+# Click Counter
+<p align="center">
+    <img src="https://i.ibb.co/6JcbZBh/Captura-de-pantalla-2023-08-29-234117.png" alt="imagen" width="400">
+  </p>
+
