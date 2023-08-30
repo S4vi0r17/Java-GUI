@@ -118,5 +118,10 @@ frame.setBounds(100, 100, 400, 300); // x:100, y:100 y un tamaño de 400x300 pí
 # Click Counter
 <p align="center">
     <img src="https://i.ibb.co/6JcbZBh/Captura-de-pantalla-2023-08-29-234117.png" alt="imagen" width="400">
-  </p>
+</p>
+
+# Linux Distros
+<p align="center">
+    <img src="https://i.ibb.co/yXtCLHK/225shots-so.png" alt="imagen" width="600">
+</p>
 
